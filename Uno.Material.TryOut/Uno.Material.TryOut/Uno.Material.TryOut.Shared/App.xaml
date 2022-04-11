@@ -1,0 +1,22 @@
+﻿<Application
+    x:Class="Uno.Material.TryOut.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Uno.Material.TryOut">
+	
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+                <!-- Add resource dictionaries here -->
+
+                <!-- Load the Material control resources -->
+                <MaterialResources xmlns="using:Uno.Material"/>
+                <ToolkitResources xmlns="using:Uno.Toolkit.UI"/>
+
+            </ResourceDictionary.MergedDictionaries>
+            <!-- Add resources here -->
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
